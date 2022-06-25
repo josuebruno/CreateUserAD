@@ -131,12 +131,12 @@ if($local == 'Brasilia'){
 	 
 
 if($local == 'Brasilia'){
-			#$base_dn = "cn=".$userad3.",OU=b,OU=df,OU=Homologacao,OU=Desktops,OU=Computadores,OU=IPEA_DF,OU=IPEA,DC=ipea,DC=gov,DC=br";
-      $base_dn = "cn=".$userad3.",OU=Bolsistas,OU=Usuarios,OU=contoso_DF,OU=IPEAcontoso,DC=ipea,DC=gov,DC=br";
+			#$base_dn = "cn=".$userad3.",OU=b,OU=df,OU=Homologacao,OU=Desktops,OU=Computadores,OU=IPEA_DF,OU=contoso,DC=ipea,DC=gov,DC=br";
+      $base_dn = "cn=".$userad3.",OU=Bolsistas,OU=Usuarios,OU=contoso_DF,OU=IPEAcontoso,DC=contoso,DC=gov,DC=br";
 
 }else{
-			#$base_dn = "cn=".$userad3.",OU=b,OU=rj,OU=Homologacao,OU=Desktops,OU=Computadores,OU=IPEA_DF,OU=IPEA,DC=ipea,DC=gov,DC=br";
-      $base_dn = "cn=".$userad3.",OU=Bolsistas,OU=Usuarios,OU=contoso_RJ,OU=contoso,DC=ipea,DC=gov,DC=br";
+			#$base_dn = "cn=".$userad3.",OU=b,OU=rj,OU=Homologacao,OU=Desktops,OU=Computadores,OU=IPEA_DF,OU=contoso,DC=ipea,DC=gov,DC=br";
+      $base_dn = "cn=".$userad3.",OU=Bolsistas,OU=Usuarios,OU=contoso_RJ,OU=contoso,DC=contoso,DC=gov,DC=br";
 
 }
 				
